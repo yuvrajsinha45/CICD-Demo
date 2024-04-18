@@ -13,9 +13,9 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<ee:transform doc:name="Transform Message" doc:id="19ceaf2c-b222-4dcd-968f-9aa232db2db7" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
+output application/xml
 ---
-{
+root:{
 	"Message":"Hello world I am implementing CICD",
 	"info":"no info to give"
 }]]></ee:set-payload>
