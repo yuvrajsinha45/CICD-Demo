@@ -33,7 +33,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<muleVersion>4.5.3</muleVersion>
+						<muleVersion>4.5</muleVersion>
 						<username>${PLATFORM_USERNAME}</username>
 						<password>${PLATFORM_PASSWORD}</password>
 						<applicationName>hello-world-ap2024</applicationName>
