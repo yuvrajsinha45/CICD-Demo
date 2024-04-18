@@ -16,7 +16,8 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	"Message":"Hello world I am implementing CICD"
+	"Message":"Hello world I am implementing CICD",
+	"info":"no info to give"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
